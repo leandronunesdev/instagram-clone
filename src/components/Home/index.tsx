@@ -32,7 +32,7 @@ const Home = () => {
     const atualizaLike = () => {        
 
         const requisicao = {
-            likes: + 1
+            likes: numeroLikes + 1
         }
 
         axios.patch(`http://localhost:4000/posts/${postId}`, requisicao)
