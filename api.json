@@ -1,0 +1,77 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "user": "history",
+      "userPicture": "https://randomuser.me/api/portraits/men/22.jpg",
+      "postPicture": "https://historycouk.s3.eu-west-2.amazonaws.com/s3fs-public/styles/860x300/public/2020-07/orson-welles-war-worlds.jpg",
+      "description": "On #ThisDayinHistory 1938, Orson Welles caused a nationwide panic with his broadcast of “War of the Worlds”—a realistic radio dramatization of a Martian invasion of Earth",
+      "likes": 1
+    },
+    {
+      "id": 3,
+      "user": "nasa",
+      "userPicture": "https://randomuser.me/api/portraits/women/17.jpg",
+      "postPicture": "https://blogs.esa.int/iriss/files/2015/09/20457019454_7de78eff73_o.jpg",
+      "location": "Space",
+      "description": "Waving goodbye to a spacecraft.",
+      "likes": 10
+    },
+    {
+      "id": 4,
+      "user": "nasa",
+      "userPicture": "https://randomuser.me/api/portraits/women/27.jpg",
+      "postPicture": "https://www.publicdomainpictures.net/pictures/90000/velka/mars.jpg",
+      "location": "Mars",
+      "description": "🧭 Explorer, 📸 photographer, ⛰️ geologist, 🧪 chemist... Mars Curiosity does it all!⁣",
+      "likes": 11
+    },
+    {
+      "postPicture": "https://super.abril.com.br/wp-content/uploads/2020/09/04-09_gato_SITE.jpg?quality=70&strip=info&resize=680,453",
+      "description": "Gatinho fia da puta",
+      "user": "jenicarvalho",
+      "userPicture": "https://randomuser.me/api/portraits/women/21.jpg",
+      "likes": 1,
+      "id": 8
+    },
+    {
+      "postPicture": "https://s2.glbimg.com/slaVZgTF5Nz8RWqGrHRJf0H1PMQ=/0x0:800x450/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/U/e/NTegqdSe6SoBAoQDjKZA/cachorro.jpg",
+      "description": "Catioro <3",
+      "user": "jenicarvalho",
+      "userPicture": "https://randomuser.me/api/portraits/women/21.jpg",
+      "likes": 0,
+      "id": 9
+    }
+  ],
+  "stories": [
+    {
+      "id": 11,
+      "user": "natgeo",
+      "userPicture": "https://randomuser.me/api/portraits/men/11.jpg",
+      "time": "há 22 minutos"
+    },
+    {
+      "id": 22,
+      "user": "nasa",
+      "userPicture": "https://randomuser.me/api/portraits/women/18.jpg",
+      "time": "há 30 minutos"
+    },
+    {
+      "id": 33,
+      "user": "history",
+      "userPicture": "https://randomuser.me/api/portraits/women/20.jpg",
+      "time": "há 2 horas"
+    },
+    {
+      "id": 44,
+      "user": "discovery",
+      "userPicture": "https://randomuser.me/api/portraits/men/2.jpg",
+      "time": "há 7 horas"
+    }
+  ],
+  "user": {
+    "name": "Jeniffer",
+    "username": "jenicarvalho",
+    "userPicture": "https://randomuser.me/api/portraits/women/21.jpg"
+  }
+}
