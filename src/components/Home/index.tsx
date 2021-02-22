@@ -13,32 +13,12 @@ const Home = () => {
     const dispatch = useDispatch()
 
     const posts = useSelector((state: PostsState) => state.posts.arrayPosts)        
-    const [postId, setPostId] = useState<Number>()
-    const [numeroLikes, setNumeroLikes] = useState<Number>()       
+    const [postId, setPostId] = useState<Number>()    
 
     useEffect(() => {
         axios.get("http://localhost:4000/posts")
         .then(resposta => dispatch(getPost(resposta.data)))
-    }, []) 
-
-    useEffect(() => {
-        if(postId !== null) {
-            axios.get(`http://localhost:4000/posts/${postId}`)
-            .then(resposta => setNumeroLikes(resposta.data.likes))
-        }        
-    },)
-    
-    
-    const atualizaLike = () => {        
-
-        const requisicao = {
-            likes: numeroLikes + 1
-        }
-
-        axios.patch(`http://localhost:4000/posts/${postId}`, requisicao)
-    }  
-
-    
+    }, [])   
 
     return (
         <div className="home">        
@@ -59,8 +39,7 @@ const Home = () => {
                             <img src={item.postPicture} alt="post" />
                             </div>
                             <div className="post-likes">
-                            <FiHeart onClick={() => setPostId(item.id)} />{item.likes}
-                            <button onClick={() => atualizaLike()}>Gostei</button>
+                            <FiHeart onClick={() => setPostId(item.id)} />{item.likes}                            
                             </div>
                             <p>{item.description}</p>
                         </div>
