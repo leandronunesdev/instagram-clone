@@ -3,14 +3,22 @@
 ## Projeto de Instagram Clone usando Redux
 
 <p align="center">
+ <a href="#features">Features</a> •
  <a href="#pre-requisitos">Pré-requisitos</a> •
  <a href="#tecnologias">Tecnologias</a> • 
  <a href="#autor">Autor</a>
 </p>
 
 <h4 align="center"> 
-	Projeto Finalizado ✅
+	🚧 Em construção... 🚧
 </h4>
+
+<h1 id="features">Features</h1>
+
+- [x] Cadastro de post
+- [ ] Atualizar lista de posts automaticamente
+- [ ] Contabilizar "likes"
+
 
 <h1 id="pre-requisitos">Pré-requisitos</h1>
 
@@ -30,9 +38,7 @@ $ cd instagram-clone
 # Instale as dependências
 $ npm install 
 
-# Faça o download desse Fake API na pasta instagram-clone: https://cutt.ly/Bkx2FEN 
-
-# Rode a Fake API no servidor local
+# Rode a Fake API no servidor local usando o terminal/cmd
 $ json-server --watch api.json --port 4000
 
 # O servidor da Fake API inciará na porta:4000 - acesse <http://localhost:4000>
