@@ -1,6 +1,6 @@
 # Instagram Clone
 
-## Projeto de Instagram Clone para consumo de API
+## Projeto de Instagram Clone usando Redux
 
 <p align="center">
  <a href="#pre-requisitos">Pré-requisitos</a> •
@@ -22,18 +22,18 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/leandronunesdev/curriculo-typescript>
+$ git clone <https://github.com/leandronunesdev/instagram-clone>
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd curriculo-typescript
+$ cd instagram-clone
 
 # Instale as dependências
 $ npm install 
 
-# Faça o download desse Fake API na pasta curriculo-typescript: https://cutt.ly/Bkx2FEN 
+# Faça o download desse Fake API na pasta instagram-clone: https://cutt.ly/Bkx2FEN 
 
 # Rode a Fake API no servidor local
-$ json-server --watch ARQUIVO.json --port 4000
+$ json-server --watch api.json --port 4000
 
 # O servidor da Fake API inciará na porta:4000 - acesse <http://localhost:4000>
 
@@ -50,6 +50,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Redux](https://redux.js.org/)
 
 <h1 id="autor">🛠 Autor</h1>
 
